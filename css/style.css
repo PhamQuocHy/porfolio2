@@ -349,6 +349,7 @@ textarea {
   z-index: 3;
   max-width: 1440px;
   margin: 0 auto;
+  will-change: transform, opacity;
 }
 
 .hero-heading {
@@ -1627,7 +1628,7 @@ textarea {
   flex-wrap: wrap;
 }
 
-/* ===== Animations ===== */
+/* ===== Animations & motion ===== */
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -1645,6 +1646,231 @@ textarea {
   }
   50% {
     transform: translateX(-50%) translateY(8px);
+  }
+}
+
+@keyframes heroReveal {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+    filter: blur(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
+@keyframes cloudDrift {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(24px, -12px);
+  }
+}
+
+@keyframes cloudDriftAlt {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-18px, 8px);
+  }
+}
+
+@keyframes beamGlow {
+  0%, 100% {
+    opacity: 0.62;
+  }
+  50% {
+    opacity: 0.88;
+  }
+}
+
+@keyframes statusPulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.45);
+  }
+  50% {
+    box-shadow: 0 0 0 6px rgba(34, 197, 94, 0);
+  }
+}
+
+/* Header on scroll */
+.header {
+  transition:
+    background 0.35s ease,
+    box-shadow 0.35s ease;
+}
+
+.header.is-scrolled {
+  background: rgba(238, 240, 243, 0.96);
+  box-shadow: 0 8px 32px rgba(42, 51, 71, 0.08);
+}
+
+/* Hero entrance */
+.hero .hero-line,
+.hero .hero-desc,
+.hero .hero-buttons,
+.hero .project-slider {
+  opacity: 0;
+}
+
+.hero.hero--ready .hero-line,
+.hero.hero--ready .hero-desc,
+.hero.hero--ready .hero-buttons,
+.hero.hero--ready .project-slider {
+  animation: heroReveal 0.85s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.hero.hero--ready .hero-heading .hero-line:nth-child(1) {
+  animation-delay: 0.12s;
+}
+
+.hero.hero--ready .hero-heading .hero-line:nth-child(2) {
+  animation-delay: 0.28s;
+}
+
+.hero.hero--ready .hero-desc {
+  animation-delay: 0.44s;
+}
+
+.hero.hero--ready .hero-buttons {
+  animation-delay: 0.56s;
+}
+
+.hero.hero--ready .project-slider {
+  animation-delay: 0.72s;
+}
+
+.hero.hero--ready .hero-img {
+  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.hero.hero--ready .hero-line:hover .hero-img {
+  transform: scale(1.08) rotate(-2deg);
+}
+
+.hero-cloud--1 {
+  animation: cloudDrift 22s ease-in-out infinite;
+}
+
+.hero-cloud--2 {
+  animation: cloudDriftAlt 18s ease-in-out infinite;
+}
+
+.hero-light__beam {
+  animation: beamGlow 7s ease-in-out infinite;
+}
+
+/* Scroll reveal */
+.reveal {
+  opacity: 0;
+  transform: translateY(36px);
+  transition:
+    opacity 0.75s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.75s cubic-bezier(0.22, 1, 0.36, 1);
+  transition-delay: var(--reveal-delay, 0s);
+  will-change: opacity, transform;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.reveal--scale {
+  transform: translateY(24px) scale(0.96);
+}
+
+.reveal--scale.is-visible {
+  transform: translateY(0) scale(1);
+}
+
+/* Interactive cards */
+.profile-card,
+.projects-card,
+.services-card,
+.process-card,
+.achievement-card {
+  transition:
+    transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.35s ease;
+}
+
+.profile-card.is-tilting,
+.projects-card.is-tilting {
+  transition: transform 0.12s ease-out, box-shadow 0.35s ease;
+}
+
+.profile-status__dot {
+  animation: statusPulse 2.2s ease-in-out infinite;
+}
+
+/* Button shine */
+.btn-hero-primary,
+.profile-card__btn,
+.nav-cta {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-hero-primary::before,
+.profile-card__btn::before,
+.nav-cta::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    105deg,
+    transparent 38%,
+    rgba(255, 255, 255, 0.22) 50%,
+    transparent 62%
+  );
+  transform: translateX(-130%);
+  transition: transform 0.55s ease;
+  pointer-events: none;
+}
+
+.btn-hero-primary:hover::before,
+.profile-card__btn:hover::before,
+.nav-cta:hover::before {
+  transform: translateX(130%);
+}
+
+.projects-trust strong {
+  display: inline-block;
+  font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero .hero-line,
+  .hero .hero-desc,
+  .hero .hero-buttons,
+  .hero .project-slider,
+  .reveal {
+    opacity: 1;
+    transform: none;
+    filter: none;
+    animation: none !important;
+    transition: none !important;
+  }
+
+  .hero-cloud--1,
+  .hero-cloud--2,
+  .hero-light__beam,
+  .profile-status__dot {
+    animation: none !important;
+  }
+
+  .profile-card,
+  .projects-card,
+  .services-card,
+  .process-card,
+  .achievement-card {
+    transition: box-shadow 0.2s ease;
   }
 }
 
