@@ -43,16 +43,6 @@ function initApp() {
     });
   });
 
-  const contactForm = document.querySelector('.contact-form');
-
-  if (contactForm) {
-    contactForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-      alert('Cảm ơn bạn! Tin nhắn đã được gửi thành công.');
-      contactForm.reset();
-    });
-  }
-
   initProjectSlider();
 }
 

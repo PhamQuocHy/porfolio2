@@ -3,9 +3,10 @@ const sections = [
   { id: 'hero', path: 'sections/hero.html' },
   { id: 'about', path: 'sections/about.html' },
   { id: 'process', path: 'sections/process.html' },
+  { id: 'services', path: 'sections/services.html' },
+  { id: 'achievements', path: 'sections/achievements.html' },
   { id: 'projects', path: 'sections/projects.html' },
   { id: 'contact', path: 'sections/contact.html' },
-  { id: 'footer', path: 'sections/footer.html' },
 ];
 
 async function loadSection({ id, path }) {
