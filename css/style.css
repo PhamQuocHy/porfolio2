@@ -747,7 +747,7 @@ textarea {
 }
 
 .profile-card__photo-wrap {
-  padding: 10px 10px 12px;
+  padding: 10px 10px 0;
 }
 
 .profile-card__photo {
@@ -757,8 +757,7 @@ textarea {
   overflow: hidden;
   box-shadow:
     inset 0 1px 0 rgba(255, 255, 255, 0.45),
-    0 0 0 1px rgba(255, 255, 255, 0.28),
-    0 10px 28px rgba(0, 0, 0, 0.18);
+    0 0 0 1px rgba(255, 255, 255, 0.28);
 }
 
 .profile-card__photo::after {
@@ -775,7 +774,9 @@ textarea {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center top;
+  object-position: center 38%;
+  transform: scale(1.15);
+  transform-origin: center 38%;
   display: block;
 }
 
