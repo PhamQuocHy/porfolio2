@@ -223,7 +223,7 @@ const PROJECT_DETAILS = {
     ],
   },
   'milanceramics-gbp': {
-    title: 'Google Business Profile & Local SEO cho Milan Ceramics',
+    title: 'Google Business Profile cho Milan Ceramics',
     subtitle:
       'Xây dựng chiến dịch thu thập đánh giá trên Google Business Profile — điểm đánh giá tăng từ 3.9 lên 4.9 sao, thu hút 97 review và hỗ trợ Local SEO khu vực Cần Thơ.',
     sidebar: 'Local SEO',
@@ -283,69 +283,6 @@ const PROJECT_DETAILS = {
       { src: 'images/XJP6N21SKyA8OD0sTiV9H2m0.avif', alt: 'Đánh giá khách hàng', layout: '6' },
       { src: 'images/lg8tfpW7D7GQUO4F5VtdVe8OjjM.avif', alt: 'Local SEO Cần Thơ', layout: '7' },
       { src: 'images/project-3.png', alt: 'Kết quả review', layout: '8' },
-    ],
-  },
-  'milanceramics-event': {
-    title: 'Event cho Milan Ceramics',
-    subtitle:
-      'Lập kế hoạch, triển khai và điều phối hơn 20 sự kiện nội bộ và đối ngoại — góp phần tăng nhận diện thương hiệu và gắn kết nội bộ.',
-    sidebar: 'Event',
-    sections: [
-      {
-        title: 'Vai trò',
-        type: 'text',
-        content:
-          'Chịu trách nhiệm lập kế hoạch, triển khai và điều phối các hoạt động sự kiện nội bộ và đối ngoại của công ty.',
-      },
-      {
-        title: 'Thành tựu nổi bật',
-        type: 'text',
-        content: 'Tổ chức 20+ sự kiện nội bộ và đối ngoại, bao gồm:',
-      },
-      {
-        title: 'Loại hình sự kiện',
-        type: 'list',
-        items: [
-          'Hội nghị khách hàng',
-          'Sự kiện tri ân khách hàng',
-          'Workshop',
-          'Hoạt động team building',
-        ],
-      },
-      {
-        title: 'Trách nhiệm chính',
-        type: 'list',
-        items: [
-          'Xây dựng concept và chủ đề chương trình',
-          'Lập kế hoạch triển khai tổng thể',
-          'Phân bổ ngân sách và nguồn lực',
-          'Phân công công việc cho team Marketing và các bộ phận liên quan',
-          'Làm việc với nhà cung cấp, đối tác và đơn vị thi công',
-          'Điều phối nhân sự trong quá trình tổ chức',
-          'Kiểm soát tiến độ, chất lượng và xử lý phát sinh tại sự kiện',
-          'Tổng kết và đánh giá hiệu quả sau chương trình',
-        ],
-      },
-      {
-        title: 'Kết quả đạt được',
-        type: 'list',
-        items: [
-          'Tổ chức thành công hơn 20 sự kiện trong nhiều quy mô khác nhau',
-          'Đảm bảo chương trình diễn ra đúng kế hoạch và ngân sách',
-          'Góp phần tăng cường nhận diện thương hiệu và duy trì mối quan hệ với khách hàng, đối tác',
-          'Nâng cao sự gắn kết nội bộ và văn hóa doanh nghiệp',
-        ],
-      },
-    ],
-    images: [
-      { src: 'images/cloud-2.png', alt: 'Sự kiện Milan Ceramics', layout: '1' },
-      { src: 'images/project-1.png', alt: 'Hội nghị khách hàng', layout: '2' },
-      { src: 'images/project-2.png', alt: 'Workshop', layout: '3' },
-      { src: 'images/avt3.jpg', alt: 'Team building', layout: '4' },
-      { src: 'images/F8rOBHbbIkzGRluKefWlxCX9WI.avif', alt: 'Sự kiện tri ân', layout: '5' },
-      { src: 'images/XJP6N21SKyA8OD0sTiV9H2m0.avif', alt: 'Concept chương trình', layout: '6' },
-      { src: 'images/lg8tfpW7D7GQUO4F5VtdVe8OjjM.avif', alt: 'Điều phối sự kiện', layout: '7' },
-      { src: 'images/project-4.png', alt: 'Tổng kết chương trình', layout: '8' },
     ],
   },
   novapath: {

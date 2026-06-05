@@ -1459,11 +1459,6 @@ textarea {
   grid-column: span 5;
 }
 
-.projects-showcase--solo {
-  margin-top: 48px;
-  margin-bottom: 0;
-}
-
 .projects-card--full {
   grid-column: span 12;
   min-height: 300px;
@@ -1642,7 +1637,6 @@ body.modal-open {
   position: relative;
   width: min(1120px, 96vw);
   max-height: 92vh;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   background: #f4f4f4;
@@ -1691,6 +1685,7 @@ body.modal-open {
   flex: 1;
   min-height: 0;
   overflow: hidden;
+  border-radius: inherit;
 }
 
 .project-modal__sidebar {
@@ -1885,7 +1880,7 @@ body.modal-open {
 
 /* Trust partners carousel modal */
 .trust-modal .project-modal__dialog {
-  overflow: hidden;
+  overflow: visible;
 }
 
 .trust-modal__nav {
@@ -1913,11 +1908,11 @@ body.modal-open {
 }
 
 .trust-modal__nav--prev {
-  left: -18px;
+  left: 68px;
 }
 
 .trust-modal__nav--next {
-  right: -18px;
+  right: 24px;
 }
 
 .trust-modal__counter {
@@ -2443,8 +2438,7 @@ body.modal-open {
   .projects-card--sm,
   .projects-card--lg,
   .projects-card--wide,
-  .projects-card--md,
-  .projects-card--full {
+  .projects-card--md {
     grid-column: span 1;
   }
 

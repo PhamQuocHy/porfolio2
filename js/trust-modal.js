@@ -1,20 +1,5 @@
 const TRUST_SLIDES = [
-  {
-    title: 'Giang Anh Nội thất đẹp',
-    subtitle:
-      'Triển khai chiến lược thương hiệu và nội dung số, tăng nhận diện tại thị trường nội thất Cần Thơ.',
-    sidebar: 'Đối tác tin cậy',
-    images: [
-      { src: 'images/F8rOBHbbIkzGRluKefWlxCX9WI.avif', alt: 'Key visual thương hiệu', layout: '1' },
-      { src: 'images/project-1.png', alt: 'Landing page', layout: '2' },
-      { src: 'images/project-3.png', alt: 'Social campaign', layout: '3' },
-      { src: 'images/avt2.jpg', alt: 'Lifestyle content', layout: '4' },
-      { src: 'images/z7174474744548_a5729aee8355d13fdfdeab45a65c38ee.jpg', alt: 'Bao bì & POSM', layout: '5' },
-      { src: 'images/project-4.png', alt: 'Brand story', layout: '6' },
-      { src: 'images/project-2.png', alt: 'Performance ads', layout: '7' },
-      { src: 'images/lg8tfpW7D7GQUO4F5VtdVe8OjjM.avif', alt: 'Báo cáo chiến dịch', layout: '8' },
-    ],
-  },
+ 
   {
     title: 'AME Digital',
     subtitle:
@@ -50,7 +35,7 @@ const TRUST_SLIDES = [
   {
     title: 'Đối tác Freelance',
     subtitle:
-      'Hợp tác sản xuất content và chiến dịch social cho nhiều ngành: F&B, lifestyle và edtech.',
+      'Hợp tác sản xuất content và chiến dịch social cho nhiều đơn vị như: Language Link Phú Thọ, ELink Phú Thọ, Vật tư nông nghiệp Xuân Nông,...',
     sidebar: 'Collaboration',
     images: [
       { src: 'images/profile-photo.png', alt: 'Content creator', layout: '1' },
@@ -61,6 +46,120 @@ const TRUST_SLIDES = [
       { src: 'images/F8rOBHbbIkzGRluKefWlxCX9WI.avif', alt: 'UGC hub', layout: '6' },
       { src: 'images/lg8tfpW7D7GQUO4F5VtdVe8OjjM.avif', alt: 'Community', layout: '7' },
       { src: 'images/XJP6N21SKyA8OD0sTiV9H2m0.avif', alt: 'Monthly report', layout: '8' },
+    ],
+  },
+  {
+    title: 'Event Milan Ceramics',
+    subtitle:
+      'Lập kế hoạch, triển khai và điều phối hơn 20 sự kiện nội bộ và đối ngoại — góp phần tăng nhận diện thương hiệu và gắn kết nội bộ.',
+    sidebar: 'Event',
+    sections: [
+      {
+        title: 'Vai trò',
+        type: 'text',
+        content:
+          'Chịu trách nhiệm lập kế hoạch, triển khai và điều phối các hoạt động sự kiện nội bộ và đối ngoại của công ty.',
+      },
+      {
+        title: 'Thành tựu nổi bật',
+        type: 'text',
+        content: 'Tổ chức 20+ sự kiện nội bộ và đối ngoại, bao gồm:',
+      },
+      {
+        title: 'Loại hình sự kiện',
+        type: 'list',
+        items: [
+          'Hội nghị khách hàng',
+          'Sự kiện tri ân khách hàng',
+          'Workshop',
+          'Hoạt động team building',
+        ],
+      },
+      {
+        title: 'Trách nhiệm chính',
+        type: 'list',
+        items: [
+          'Xây dựng concept và chủ đề chương trình',
+          'Lập kế hoạch triển khai tổng thể',
+          'Phân bổ ngân sách và nguồn lực',
+          'Phân công công việc cho team Marketing và các bộ phận liên quan',
+          'Làm việc với nhà cung cấp, đối tác và đơn vị thi công',
+          'Điều phối nhân sự trong quá trình tổ chức',
+          'Kiểm soát tiến độ, chất lượng và xử lý phát sinh tại sự kiện',
+          'Tổng kết và đánh giá hiệu quả sau chương trình',
+        ],
+      },
+      {
+        title: 'Kết quả đạt được',
+        type: 'list',
+        items: [
+          'Tổ chức thành công hơn 20 sự kiện trong nhiều quy mô khác nhau',
+          'Đảm bảo chương trình diễn ra đúng kế hoạch và ngân sách',
+          'Góp phần tăng cường nhận diện thương hiệu và duy trì mối quan hệ với khách hàng, đối tác',
+          'Nâng cao sự gắn kết nội bộ và văn hóa doanh nghiệp',
+        ],
+      },
+    ],
+    images: [
+      { src: 'images/cloud-2.png', alt: 'Sự kiện Milan Ceramics', layout: '1' },
+      { src: 'images/project-1.png', alt: 'Hội nghị khách hàng', layout: '2' },
+      { src: 'images/project-2.png', alt: 'Workshop', layout: '3' },
+      { src: 'images/avt3.jpg', alt: 'Team building', layout: '4' },
+      { src: 'images/F8rOBHbbIkzGRluKefWlxCX9WI.avif', alt: 'Sự kiện tri ân', layout: '5' },
+      { src: 'images/XJP6N21SKyA8OD0sTiV9H2m0.avif', alt: 'Concept chương trình', layout: '6' },
+      { src: 'images/lg8tfpW7D7GQUO4F5VtdVe8OjjM.avif', alt: 'Điều phối sự kiện', layout: '7' },
+      { src: 'images/project-4.png', alt: 'Tổng kết chương trình', layout: '8' },
+    ],
+  },
+  {
+    title: 'Corporate Gifting',
+    subtitle:
+      'Phụ trách xây dựng ý tưởng và triển khai các chương trình quà tặng dành cho khách hàng thân thiết, đối tác chiến lược và các dịp đặc biệt của doanh nghiệp.',
+    sidebar: 'Corporate Gifting',
+    sections: [
+      {
+        title: 'Vai trò',
+        type: 'text',
+        content:
+          'Phụ trách xây dựng ý tưởng và triển khai các chương trình quà tặng dành cho khách hàng thân thiết, đối tác chiến lược và các dịp đặc biệt của doanh nghiệp.',
+      },
+      {
+        title: 'Trách nhiệm chính',
+        type: 'list',
+        items: [
+          'Nghiên cứu và đề xuất ý tưởng quà tặng theo từng chiến dịch',
+          'Xây dựng concept quà tặng phù hợp với hình ảnh thương hiệu',
+          'Xây dựng nội dung',
+          'Viết brief cho đội ngũ thiết kế',
+          'Kiểm soát hình ảnh và chất lượng sản phẩm trước khi bàn giao',
+        ],
+      },
+      {
+        title: 'Các dự án tiêu biểu: Bộ quà tặng doanh nghiệp',
+        type: 'text',
+        content:
+          'Thực hiện nhiều bộ quà tặng dành cho đối tác và khách hàng thân thiết với các sản phẩm như: Ly thương hiệu, Túi canvas, Sổ tay, Hộp quà Tết, Thiệp cảm ơn cá nhân hóa.',
+      },
+      {
+        title: 'Kết quả đạt được',
+        type: 'list',
+        items: [
+          'Xây dựng nhiều concept quà tặng theo từng mùa và chiến dịch',
+          'Đồng bộ hình ảnh thương hiệu trên toàn bộ vật phẩm',
+          'Góp phần duy trì mối quan hệ với khách hàng và đối tác chiến lược',
+          'Tăng trải nghiệm khách hàng thông qua các hoạt động tri ân và chăm sóc sau bán hàng',
+        ],
+      },
+    ],
+    images: [
+      { src: 'images/project-3.png', alt: 'Corporate Gifting', layout: '1' },
+      { src: 'images/project-1.png', alt: 'Quà tặng doanh nghiệp', layout: '2' },
+      { src: 'images/project-2.png', alt: 'Concept quà tặng', layout: '3' },
+      { src: 'images/avt2.jpg', alt: 'Thiết kế bao bì', layout: '4' },
+      { src: 'images/F8rOBHbbIkzGRluKefWlxCX9WI.avif', alt: 'Sản phẩm thực tế', layout: '5' },
+      { src: 'images/XJP6N21SKyA8OD0sTiV9H2m0.avif', alt: 'Tri ân khách hàng', layout: '6' },
+      { src: 'images/lg8tfpW7D7GQUO4F5VtdVe8OjjM.avif', alt: 'Đồng bộ thương hiệu', layout: '7' },
+      { src: 'images/project-4.png', alt: 'Chăm sóc sau bán hàng', layout: '8' },
     ],
   },
 ];
@@ -74,6 +173,7 @@ function getTrustModalElements() {
     title: document.getElementById('trustModalTitle'),
     subtitle: document.getElementById('trustModalSubtitle'),
     sidebar: document.getElementById('trustModalSidebar'),
+    caseStudy: document.getElementById('trustModalCase'),
     gallery: document.getElementById('trustModalGallery'),
     counter: document.getElementById('trustModalCounter'),
     prevBtn: document.getElementById('trustModalPrev'),
@@ -94,15 +194,70 @@ function renderTrustGallery(images) {
     .join('');
 }
 
+function renderTrustCaseStudy(sections) {
+  if (!sections?.length) return '';
+
+  return sections
+    .map((section) => {
+      if (section.type === 'list') {
+        const items = section.items.map((item) => `<li>${item}</li>`).join('');
+        return `
+          <section class="project-modal__case-block">
+            <h3>${section.title}</h3>
+            <ul>${items}</ul>
+          </section>
+        `;
+      }
+
+      if (section.type === 'metrics') {
+        const items = section.items
+          .map(
+            ({ label, value }) => `
+              <div class="project-modal__metric">
+                <span class="project-modal__metric-value">${value}</span>
+                <span class="project-modal__metric-label">${label}</span>
+              </div>
+            `
+          )
+          .join('');
+        return `
+          <section class="project-modal__case-block">
+            <h3>${section.title}</h3>
+            <div class="project-modal__metrics">${items}</div>
+          </section>
+        `;
+      }
+
+      return `
+        <section class="project-modal__case-block">
+          <h3>${section.title}</h3>
+          <p>${section.content}</p>
+        </section>
+      `;
+    })
+    .join('');
+}
+
 function renderTrustSlide(index, animate = false) {
   const slide = TRUST_SLIDES[index];
-  const { title, subtitle, sidebar, gallery, counter } = getTrustModalElements();
+  const { modal, title, subtitle, sidebar, caseStudy, gallery, counter } = getTrustModalElements();
   if (!slide || !gallery) return;
 
   const update = () => {
     title.textContent = slide.title;
     subtitle.textContent = slide.subtitle;
     sidebar.textContent = slide.sidebar;
+    
+    if (slide.sections?.length && caseStudy) {
+      caseStudy.innerHTML = renderTrustCaseStudy(slide.sections);
+      caseStudy.hidden = false;
+      modal.classList.add('has-case-study');
+    } else if (caseStudy) {
+      caseStudy.innerHTML = '';
+      caseStudy.hidden = true;
+      modal.classList.remove('has-case-study');
+    }
+
     gallery.innerHTML = renderTrustGallery(slide.images);
     counter.textContent = `${index + 1} / ${TRUST_SLIDES.length}`;
     gallery.classList.remove('is-changing');
