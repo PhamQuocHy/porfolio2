@@ -1,114 +1,65 @@
 const TRUST_SLIDES = [
- 
   {
-    title: 'AME Digital',
+    title: 'Google Business Profile cho Milan Ceramics',
     subtitle:
-      'Xây dựng hệ thống nội dung và funnel digital giúp tăng trưởng lead B2B ổn định qua nhiều quý.',
-    sidebar: 'Digital partner',
-    images: [
-      { src: 'images/lg8tfpW7D7GQUO4F5VtdVe8OjjM.avif', alt: 'Dashboard KPI', layout: '1' },
-      { src: 'images/project-2.png', alt: 'Analytics UI', layout: '2' },
-      { src: 'images/project-1.png', alt: 'Funnel design', layout: '3' },
-      { src: 'images/avt3.jpg', alt: 'Team workshop', layout: '4' },
-      { src: 'images/XJP6N21SKyA8OD0sTiV9H2m0.avif', alt: 'Email marketing', layout: '5' },
-      { src: 'images/project-3.png', alt: 'Brand assets', layout: '6' },
-      { src: 'images/F8rOBHbbIkzGRluKefWlxCX9WI.avif', alt: 'Paid social', layout: '7' },
-      { src: 'images/project-4.png', alt: 'Case study', layout: '8' },
-    ],
-  },
-  {
-    title: 'Alpha Group',
-    subtitle:
-      'Đồng hành định vị thương hiệu đầu tư, thống nhất trải nghiệm truyền thông trên các kênh số.',
-    sidebar: 'Brand growth',
-    images: [
-      { src: 'images/XJP6N21SKyA8OD0sTiV9H2m0.avif', alt: 'Corporate identity', layout: '1' },
-      { src: 'images/project-3.png', alt: 'Investor deck', layout: '2' },
-      { src: 'images/project-2.png', alt: 'LinkedIn content', layout: '3' },
-      { src: 'images/avt4.jpg', alt: 'Event coverage', layout: '4' },
-      { src: 'images/project-1.png', alt: 'Website refresh', layout: '5' },
-      { src: 'images/F8rOBHbbIkzGRluKefWlxCX9WI.avif', alt: 'PR kit', layout: '6' },
-      { src: 'images/lg8tfpW7D7GQUO4F5VtdVe8OjjM.avif', alt: 'Media plan', layout: '7' },
-      { src: 'images/project-4.png', alt: 'Growth report', layout: '8' },
-    ],
-  },
-  {
-    title: 'Đối tác Freelance',
-    subtitle:
-      'Hợp tác sản xuất content và chiến dịch social cho nhiều đơn vị như: Language Link Phú Thọ, ELink Phú Thọ, Vật tư nông nghiệp Xuân Nông,...',
-    sidebar: 'Collaboration',
-    images: [
-      { src: 'images/profile-photo.png', alt: 'Content creator', layout: '1' },
-      { src: 'images/project-4.png', alt: 'Social series', layout: '2' },
-      { src: 'images/project-3.png', alt: 'Reels concept', layout: '3' },
-      { src: 'images/avt2.jpg', alt: 'Shooting on set', layout: '4' },
-      { src: 'images/project-2.png', alt: 'Campaign visual', layout: '5' },
-      { src: 'images/F8rOBHbbIkzGRluKefWlxCX9WI.avif', alt: 'UGC hub', layout: '6' },
-      { src: 'images/lg8tfpW7D7GQUO4F5VtdVe8OjjM.avif', alt: 'Community', layout: '7' },
-      { src: 'images/XJP6N21SKyA8OD0sTiV9H2m0.avif', alt: 'Monthly report', layout: '8' },
-    ],
-  },
-  {
-    title: 'Event Milan Ceramics',
-    subtitle:
-      'Lập kế hoạch, triển khai và điều phối hơn 20 sự kiện nội bộ và đối ngoại — góp phần tăng nhận diện thương hiệu và gắn kết nội bộ.',
-    sidebar: 'Event',
+      'Xây dựng chiến dịch thu thập đánh giá trên Google Business Profile — điểm đánh giá tăng từ 3.9 lên 4.9 sao, thu hút 97 review và hỗ trợ Local SEO khu vực Cần Thơ.',
+    sidebar: 'Local SEO',
     sections: [
       {
         title: 'Vai trò',
-        type: 'text',
-        content:
-          'Chịu trách nhiệm lập kế hoạch, triển khai và điều phối các hoạt động sự kiện nội bộ và đối ngoại của công ty.',
-      },
-      {
-        title: 'Thành tựu nổi bật',
-        type: 'text',
-        content: 'Tổ chức 20+ sự kiện nội bộ và đối ngoại, bao gồm:',
-      },
-      {
-        title: 'Loại hình sự kiện',
         type: 'list',
         items: [
-          'Hội nghị khách hàng',
-          'Sự kiện tri ân khách hàng',
-          'Workshop',
-          'Hoạt động team building',
+          'Xây dựng và triển khai chiến dịch thu thập đánh giá khách hàng trên Google Business Profile',
+          'Thiết kế chương trình khuyến khích khách hàng đánh giá sau mua hàng',
+          'Theo dõi, phản hồi và quản lý chất lượng đánh giá',
+          'Tối ưu hồ sơ doanh nghiệp trên Google Maps',
         ],
       },
       {
-        title: 'Trách nhiệm chính',
+        title: 'Chiến dịch nổi bật: Đánh giá 5 sao – Nhận quà lưu niệm',
+        type: 'text',
+        content:
+          'Triển khai chương trình khuyến khích khách hàng sau mua hàng để lại đánh giá thực tế trên Google Business Profile.',
+      },
+      {
+        title: 'Hoạt động thực hiện',
         type: 'list',
         items: [
-          'Xây dựng concept và chủ đề chương trình',
-          'Lập kế hoạch triển khai tổng thể',
-          'Phân bổ ngân sách và nguồn lực',
-          'Phân công công việc cho team Marketing và các bộ phận liên quan',
-          'Làm việc với nhà cung cấp, đối tác và đơn vị thi công',
-          'Điều phối nhân sự trong quá trình tổ chức',
-          'Kiểm soát tiến độ, chất lượng và xử lý phát sinh tại sự kiện',
-          'Tổng kết và đánh giá hiệu quả sau chương trình',
+          'Thiết kế standee và QR Code đánh giá',
+          'Hướng dẫn khách hàng đánh giá ngay tại showroom',
+          'Tặng quà lưu niệm cho khách hàng hoàn thành đánh giá',
+          'Theo dõi và phản hồi đánh giá',
         ],
       },
       {
         title: 'Kết quả đạt được',
+        type: 'metrics',
+        items: [
+          { label: 'Điểm đánh giá Google', value: '3.9 → 4.9 sao' },
+          { label: 'Đánh giá Google', value: '97 review' },
+          { label: 'Uy tín Google Maps', value: 'Tăng mạnh' },
+          { label: 'Local SEO', value: 'Cần Thơ' },
+        ],
+      },
+      {
+        title: 'Tác động kinh doanh',
         type: 'list',
         items: [
-          'Tổ chức thành công hơn 20 sự kiện trong nhiều quy mô khác nhau',
-          'Đảm bảo chương trình diễn ra đúng kế hoạch và ngân sách',
-          'Góp phần tăng cường nhận diện thương hiệu và duy trì mối quan hệ với khách hàng, đối tác',
-          'Nâng cao sự gắn kết nội bộ và văn hóa doanh nghiệp',
+          'Khi khách hàng tìm kiếm "Gạch ốp lát Cần Thơ", "Showroom gạch Cần Thơ", "Thiết bị vệ sinh Cần Thơ" — Google ưu tiên hiển thị Milan Ceramics trong nhóm doanh nghiệp nổi bật đầu trang tìm kiếm',
+          'Tăng độ tin cậy trước khi khách hàng liên hệ hoặc đến showroom',
+          'Hỗ trợ trực tiếp cho hoạt động bán hàng offline',
         ],
       },
     ],
     images: [
-      { src: 'images/cloud-2.png', alt: 'Sự kiện Milan Ceramics', layout: '1' },
-      { src: 'images/project-1.png', alt: 'Hội nghị khách hàng', layout: '2' },
-      { src: 'images/project-2.png', alt: 'Workshop', layout: '3' },
-      { src: 'images/avt3.jpg', alt: 'Team building', layout: '4' },
-      { src: 'images/F8rOBHbbIkzGRluKefWlxCX9WI.avif', alt: 'Sự kiện tri ân', layout: '5' },
-      { src: 'images/XJP6N21SKyA8OD0sTiV9H2m0.avif', alt: 'Concept chương trình', layout: '6' },
-      { src: 'images/lg8tfpW7D7GQUO4F5VtdVe8OjjM.avif', alt: 'Điều phối sự kiện', layout: '7' },
-      { src: 'images/project-4.png', alt: 'Tổng kết chương trình', layout: '8' },
+      { src: 'images/GG/gg1.png', alt: 'Google Business Profile', layout: '1' },
+      { src: 'images/GG/gg2.png', alt: 'Standee QR Code đánh giá', layout: '2' },
+      { src: 'images/GG/gg3.png', alt: 'Chiến dịch 5 sao', layout: '3' },
+      { src: 'images/GG/gg4.png', alt: 'Showroom Milan Ceramics', layout: '4' },
+      { src: 'images/GG/gg5.png', alt: 'Google Maps', layout: '5' },
+      { src: 'images/GG/gg6.png', alt: 'Đánh giá khách hàng', layout: '6' },
+      { src: 'images/GG/gg7.png', alt: 'Local SEO Cần Thơ', layout: '7' },
+      { src: 'images/GG/gg1.png', alt: 'Kết quả review', layout: '8' },
     ],
   },
   {
@@ -152,15 +103,122 @@ const TRUST_SLIDES = [
       },
     ],
     images: [
-      { src: 'images/project-3.png', alt: 'Corporate Gifting', layout: '1' },
-      { src: 'images/project-1.png', alt: 'Quà tặng doanh nghiệp', layout: '2' },
-      { src: 'images/project-2.png', alt: 'Concept quà tặng', layout: '3' },
-      { src: 'images/avt2.jpg', alt: 'Thiết kế bao bì', layout: '4' },
-      { src: 'images/F8rOBHbbIkzGRluKefWlxCX9WI.avif', alt: 'Sản phẩm thực tế', layout: '5' },
-      { src: 'images/XJP6N21SKyA8OD0sTiV9H2m0.avif', alt: 'Tri ân khách hàng', layout: '6' },
-      { src: 'images/lg8tfpW7D7GQUO4F5VtdVe8OjjM.avif', alt: 'Đồng bộ thương hiệu', layout: '7' },
-      { src: 'images/project-4.png', alt: 'Chăm sóc sau bán hàng', layout: '8' },
+      { src: 'images/EVENT/sk9.jpg', alt: 'Corporate Gifting', layout: '1' },
+      { src: 'images/EVENT/sk10.jpg', alt: 'Quà tặng doanh nghiệp', layout: '2' },
+      { src: 'images/EVENT/sk11.jpg', alt: 'Concept quà tặng', layout: '3' },
+      { src: 'images/EVENT/sk12.jpg', alt: 'Thiết kế bao bì', layout: '4' },
+      { src: 'images/EVENT/sk9.jpg', alt: 'Sản phẩm thực tế', layout: '5' },
+      { src: 'images/EVENT/sk10.jpg', alt: 'Tri ân khách hàng', layout: '6' },
+      { src: 'images/EVENT/sk11.jpg', alt: 'Đồng bộ thương hiệu', layout: '7' },
+      { src: 'images/EVENT/sk12.jpg', alt: 'Chăm sóc sau bán hàng', layout: '8' },
     ],
+  },
+  {
+    title: 'Đối tác Freelance',
+    subtitle:
+      'Hợp tác sản xuất content và chiến dịch social cho nhiều đơn vị như: Language Link Phú Thọ, ELink Phú Thọ, Vật tư nông nghiệp Xuân Nông, Job News, Thiết bị điện Cao cấp Siemens "Đức" - NPP Phạm Công...',
+    sidebar: 'Collaboration',
+    images: [
+      { src: 'images/FREELANCE/fl1.png', alt: 'Content creator', layout: '1' },
+      { src: 'images/FREELANCE/fl2.png', alt: 'Social series', layout: '2' },
+      { src: 'images/FREELANCE/fl3.png', alt: 'Reels concept', layout: '3' },
+      { src: 'images/FREELANCE/fl4.png', alt: 'Shooting on set', layout: '4' },
+      { src: 'images/FREELANCE/fl5.png', alt: 'Campaign visual', layout: '5' },
+      { src: 'images/FREELANCE/fl6.png', alt: 'UGC hub', layout: '6' },
+      { src: 'images/FREELANCE/fl7.png', alt: 'Community', layout: '7' },
+      { src: 'images/FREELANCE/fl8.png', alt: 'Monthly report', layout: '8' },
+    ],
+  },
+  {
+    title: 'AME Digital',
+    subtitle:
+      'Đồng hành xây dựng chiến lược marketing, nội dung và truyền thông thương hiệu — từ nghiên cứu SEO, lập kế hoạch content đến triển khai sự kiện và quản lý hình ảnh công ty.',
+    sidebar: 'Digital partner',
+    sections: [
+      {
+        title: 'Vai trò',
+        type: 'text',
+        content:
+          'Tham gia trực tiếp vào hoạt động marketing tổng thể của AME Digital, đảm nhiệm vai trò lập kế hoạch, triển khai nội dung và phối hợp truyền thông — góp phần xây dựng hình ảnh thương hiệu nhất quán trên các kênh số và hoạt động đối ngoại.',
+      },
+      {
+        title: 'Trách nhiệm chính',
+        type: 'list',
+        items: [
+          'Thực hiện công việc lập hoạch định chiến lược marketing tổng thể cho doanh nghiệp',
+          'Nghiên cứu từ khóa SEO, phân tích thị trường và đề xuất hướng tối ưu nội dung',
+          'Lên plan và viết content marketing cho website, social media và các kênh truyền thông',
+          'Phối hợp với team tổ chức các sự kiện, triển khai hoạt động truyền thông cho công ty',
+          'Chịu trách nhiệm truyền thông hình ảnh thương hiệu, đảm bảo thống nhất visual và thông điệp',
+        ],
+      },
+      {
+        title: 'Phạm vi triển khai',
+        type: 'list',
+        items: [
+          'Xây dựng kế hoạch marketing theo tháng/quý, gắn với mục tiêu kinh doanh',
+          'Nghiên cứu, lựa chọn và bố trí từ khóa phục vụ SEO và content',
+          'Lên ý tưởng, viết bài và điều phối nội dung đa kênh',
+          'Hỗ trợ truyền thông trước – trong – sau sự kiện nội bộ và đối ngoại',
+          'Kiểm soát hình ảnh, tone of voice và nhận diện thương hiệu trên các ấn phẩm truyền thông',
+        ],
+      },
+      {
+        title: 'Kết quả đạt được',
+        type: 'list',
+        items: [
+          'Hoàn thiện hệ thống kế hoạch marketing và content có định hướng rõ ràng',
+          'Tăng cường hiện diện thương hiệu nhờ nội dung SEO và content marketing bài bản',
+          'Phối hợp hiệu quả với team trong các chương trình sự kiện và truyền thông doanh nghiệp',
+          'Xây dựng hình ảnh công ty chuyên nghiệp, đồng bộ trên các điểm chạm truyền thông',
+        ],
+      },
+    ],
+    images: [],
+  },
+  {
+    title: 'Alpha Group',
+    subtitle:
+      'Content Writer & Research — viết content marketing và nghiên cứu, lập hoạch định chiến lược marketing cho công ty cùng các dự án khách hàng.',
+    sidebar: 'Content Writer',
+    sections: [
+      {
+        title: 'Vai trò',
+        type: 'text',
+        content:
+          'Đảm nhiệm vai trò Content Writer và Research tại Alpha Group, tập trung sản xuất nội dung marketing chất lượng và hỗ trợ nghiên cứu, hoạch định chiến lược truyền thông cho nội bộ công ty lẫn các đối tác, khách hàng.',
+      },
+      {
+        title: 'Trách nhiệm chính',
+        type: 'list',
+        items: [
+          'Thực hiện công việc viết content marketing cho website, social media và các kênh truyền thông',
+          'Nghiên cứu và lập hoạch định chiến lược marketing cho công ty và khách hàng',
+          'Thu thập, phân tích thông tin thị trường, đối thủ và insight khách hàng phục vụ định hướng nội dung',
+          'Đề xuất chủ đề, góc tiếp cận và format phù hợp với mục tiêu từng chiến dịch',
+        ],
+      },
+      {
+        title: 'Phạm vi triển khai',
+        type: 'list',
+        items: [
+          'Viết bài PR, blog, post social, landing page và các ấn phẩm content marketing khác',
+          'Nghiên cứu ngành, xu hướng và hành vi khách hàng để xây dựng nền tảng chiến lược',
+          'Lập outline, brief và hoàn thiện nội dung theo tone of voice thương hiệu',
+          'Phối hợp team marketing triển khai kế hoạch content cho dự án nội bộ và khách hàng',
+        ],
+      },
+      {
+        title: 'Kết quả đạt được',
+        type: 'list',
+        items: [
+          'Cung cấp hệ thống nội dung marketing đa kênh, đúng định hướng chiến lược',
+          'Hỗ trợ xây dựng kế hoạch marketing có cơ sở nghiên cứu rõ ràng cho công ty và khách hàng',
+          'Nâng cao chất lượng thông điệp truyền thông nhờ content bài bản, nhất quán thương hiệu',
+        ],
+      },
+    ],
+    images: [],
   },
 ];
 
@@ -186,9 +244,9 @@ function renderTrustGallery(images) {
   return images
     .map(
       ({ src, alt, layout }) => `
-        <figure class="project-modal__gallery-item project-modal__gallery-item--${layout}">
+        <button type="button" class="project-modal__gallery-item project-modal__gallery-item--${layout}" data-lightbox-src="${src}" aria-label="Xem ảnh: ${alt}">
           <img src="${src}" alt="${alt}" loading="lazy">
-        </figure>
+        </button>
       `
     )
     .join('');
@@ -258,7 +316,15 @@ function renderTrustSlide(index, animate = false) {
       modal.classList.remove('has-case-study');
     }
 
-    gallery.innerHTML = renderTrustGallery(slide.images);
+    if (slide.images?.length) {
+      gallery.innerHTML = renderTrustGallery(slide.images);
+      gallery.hidden = false;
+      modal.classList.remove('has-no-gallery');
+    } else {
+      gallery.innerHTML = '';
+      gallery.hidden = true;
+      modal.classList.add('has-no-gallery');
+    }
     counter.textContent = `${index + 1} / ${TRUST_SLIDES.length}`;
     gallery.classList.remove('is-changing');
   };

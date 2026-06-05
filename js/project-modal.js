@@ -66,14 +66,14 @@ const PROJECT_DETAILS = {
       },
     ],
     images: [
-      { src: 'images/project-1.png', alt: 'Fanpage Milan Ceramics', layout: '1' },
-      { src: 'images/project-2.png', alt: 'Báo cáo hiệu quả', layout: '2' },
-      { src: 'images/project-3.png', alt: 'Nội dung Reels', layout: '3' },
-      { src: 'images/avt2.jpg', alt: 'Công trình thực tế', layout: '4' },
-      { src: 'images/F8rOBHbbIkzGRluKefWlxCX9WI.avif', alt: 'Sản phẩm gạch', layout: '5' },
-      { src: 'images/XJP6N21SKyA8OD0sTiV9H2m0.avif', alt: 'Content pillar', layout: '6' },
-      { src: 'images/lg8tfpW7D7GQUO4F5VtdVe8OjjM.avif', alt: 'Quảng cáo Facebook', layout: '7' },
-      { src: 'images/project-4.png', alt: 'Nhận diện thương hiệu', layout: '8' },
+      { src: 'images/FB/f1.png', alt: 'Fanpage Milan Ceramics', layout: '1' },
+      { src: 'images/FB/f2.png', alt: 'Báo cáo hiệu quả', layout: '2' },
+      { src: 'images/FB/f3.png', alt: 'Nội dung Reels', layout: '3' },
+      { src: 'images/FB/f4.png', alt: 'Công trình thực tế', layout: '4' },
+      { src: 'images/FB/f5.png', alt: 'Sản phẩm gạch', layout: '5' },
+      { src: 'images/FB/f6.png', alt: 'Content pillar', layout: '6' },
+      { src: 'images/FB/f7.png', alt: 'Quảng cáo Facebook', layout: '7' },
+      { src: 'images/FB/f8.png', alt: 'Nhận diện thương hiệu', layout: '8' },
     ],
   },
   'milanceramics-tiktok': {
@@ -133,14 +133,14 @@ const PROJECT_DETAILS = {
       },
     ],
     images: [
-      { src: 'images/project-2.png', alt: 'TikTok Milan Ceramics', layout: '1' },
-      { src: 'images/project-3.png', alt: 'Video viral', layout: '2' },
-      { src: 'images/avt3.jpg', alt: 'Nội dung kênh chính', layout: '3' },
-      { src: 'images/avt4.jpg', alt: 'Kênh Ngoại Truyện', layout: '4' },
-      { src: 'images/project-4.png', alt: 'Chiến lược nội dung', layout: '5' },
-      { src: 'images/F8rOBHbbIkzGRluKefWlxCX9WI.avif', alt: 'Brand touchpoint', layout: '6' },
-      { src: 'images/XJP6N21SKyA8OD0sTiV9H2m0.avif', alt: 'Đội ngũ kinh doanh', layout: '7' },
-      { src: 'images/lg8tfpW7D7GQUO4F5VtdVe8OjjM.avif', alt: 'Báo cáo hiệu quả', layout: '8' },
+      { src: 'images/TIKTOK/tt1.png', alt: 'TikTok Milan Ceramics', layout: '1' },
+      { src: 'images/TIKTOK/tt2.png', alt: 'Video viral', layout: '2' },
+      { src: 'images/TIKTOK/tt3.png', alt: 'Nội dung kênh chính', layout: '3' },
+      { src: 'images/TIKTOK/tt4.png', alt: 'Kênh Ngoại Truyện', layout: '4' },
+      { src: 'images/TIKTOK/tt5.png', alt: 'Chiến lược nội dung', layout: '5' },
+      { src: 'images/TIKTOK/tt6.png', alt: 'Brand touchpoint', layout: '6' },
+      { src: 'images/TIKTOK/tt7.png', alt: 'Đội ngũ kinh doanh', layout: '7' },
+      { src: 'images/TIKTOK/tt1.png', alt: 'Báo cáo hiệu quả', layout: '8' },
     ],
   },
   'milanceramics-seo': {
@@ -212,14 +212,14 @@ const PROJECT_DETAILS = {
       },
     ],
     images: [
-      { src: 'images/project-3.png', alt: 'Website Milan Ceramics', layout: '1' },
-      { src: 'images/project-1.png', alt: 'Bài viết SEO', layout: '2' },
-      { src: 'images/project-2.png', alt: 'Từ khóa Top Google', layout: '3' },
-      { src: 'images/avt2.jpg', alt: 'Nội dung website', layout: '4' },
-      { src: 'images/F8rOBHbbIkzGRluKefWlxCX9WI.avif', alt: 'Gạch ốp lát', layout: '5' },
-      { src: 'images/XJP6N21SKyA8OD0sTiV9H2m0.avif', alt: 'Google Image', layout: '6' },
-      { src: 'images/lg8tfpW7D7GQUO4F5VtdVe8OjjM.avif', alt: 'Content outline', layout: '7' },
-      { src: 'images/project-4.png', alt: 'Banner website', layout: '8' },
+      { src: 'images/WEB/web1.png', alt: 'Website Milan Ceramics', layout: '1' },
+      { src: 'images/WEB/web2.png', alt: 'Bài viết SEO', layout: '2' },
+      { src: 'images/WEB/web3.png', alt: 'Từ khóa Top Google', layout: '3' },
+      { src: 'images/WEB/web4.png', alt: 'Nội dung website', layout: '4' },
+      { src: 'images/WEB/web5.png', alt: 'Google Image', layout: '5' },
+      { src: 'images/WEB/web6.png', alt: 'Content outline', layout: '6' },
+      { src: 'images/WEB/web1.png', alt: 'Trang chủ website', layout: '7' },
+      { src: 'images/WEB/web2.png', alt: 'Banner website', layout: '8' },
     ],
   },
   'milanceramics-gbp': {
@@ -275,14 +275,77 @@ const PROJECT_DETAILS = {
       },
     ],
     images: [
-      { src: 'images/project-4.png', alt: 'Google Business Profile', layout: '1' },
-      { src: 'images/project-1.png', alt: 'Standee QR Code đánh giá', layout: '2' },
-      { src: 'images/project-2.png', alt: 'Chiến dịch 5 sao', layout: '3' },
-      { src: 'images/avt2.jpg', alt: 'Showroom Milan Ceramics', layout: '4' },
-      { src: 'images/F8rOBHbbIkzGRluKefWlxCX9WI.avif', alt: 'Google Maps', layout: '5' },
-      { src: 'images/XJP6N21SKyA8OD0sTiV9H2m0.avif', alt: 'Đánh giá khách hàng', layout: '6' },
-      { src: 'images/lg8tfpW7D7GQUO4F5VtdVe8OjjM.avif', alt: 'Local SEO Cần Thơ', layout: '7' },
-      { src: 'images/project-3.png', alt: 'Kết quả review', layout: '8' },
+      { src: 'images/GG/gg1.png', alt: 'Google Business Profile', layout: '1' },
+      { src: 'images/GG/gg2.png', alt: 'Standee QR Code đánh giá', layout: '2' },
+      { src: 'images/GG/gg3.png', alt: 'Chiến dịch 5 sao', layout: '3' },
+      { src: 'images/GG/gg4.png', alt: 'Showroom Milan Ceramics', layout: '4' },
+      { src: 'images/GG/gg5.png', alt: 'Google Maps', layout: '5' },
+      { src: 'images/GG/gg6.png', alt: 'Đánh giá khách hàng', layout: '6' },
+      { src: 'images/GG/gg7.png', alt: 'Local SEO Cần Thơ', layout: '7' },
+      { src: 'images/GG/gg1.png', alt: 'Kết quả review', layout: '8' },
+    ],
+  },
+  'milanceramics-event': {
+    title: 'Event cho Milan Ceramics',
+    subtitle:
+      'Lập kế hoạch, triển khai và điều phối hơn 20 sự kiện nội bộ và đối ngoại — góp phần tăng nhận diện thương hiệu và gắn kết nội bộ.',
+    sidebar: 'Event',
+    sections: [
+      {
+        title: 'Vai trò',
+        type: 'text',
+        content:
+          'Chịu trách nhiệm lập kế hoạch, triển khai và điều phối các hoạt động sự kiện nội bộ và đối ngoại của công ty.',
+      },
+      {
+        title: 'Thành tựu nổi bật',
+        type: 'text',
+        content: 'Tổ chức 20+ sự kiện nội bộ và đối ngoại, bao gồm:',
+      },
+      {
+        title: 'Loại hình sự kiện',
+        type: 'list',
+        items: [
+          'Hội nghị khách hàng',
+          'Sự kiện tri ân khách hàng',
+          'Workshop',
+          'Hoạt động team building',
+        ],
+      },
+      {
+        title: 'Trách nhiệm chính',
+        type: 'list',
+        items: [
+          'Xây dựng concept và chủ đề chương trình',
+          'Lập kế hoạch triển khai tổng thể',
+          'Phân bổ ngân sách và nguồn lực',
+          'Phân công công việc cho team Marketing và các bộ phận liên quan',
+          'Làm việc với nhà cung cấp, đối tác và đơn vị thi công',
+          'Điều phối nhân sự trong quá trình tổ chức',
+          'Kiểm soát tiến độ, chất lượng và xử lý phát sinh tại sự kiện',
+          'Tổng kết và đánh giá hiệu quả sau chương trình',
+        ],
+      },
+      {
+        title: 'Kết quả đạt được',
+        type: 'list',
+        items: [
+          'Tổ chức thành công hơn 20 sự kiện trong nhiều quy mô khác nhau',
+          'Đảm bảo chương trình diễn ra đúng kế hoạch và ngân sách',
+          'Góp phần tăng cường nhận diện thương hiệu và duy trì mối quan hệ với khách hàng, đối tác',
+          'Nâng cao sự gắn kết nội bộ và văn hóa doanh nghiệp',
+        ],
+      },
+    ],
+    images: [
+      { src: 'images/EVENT/sk1.jpg', alt: 'Sự kiện Milan Ceramics', layout: '1' },
+      { src: 'images/EVENT/sk2.jpg', alt: 'Hội nghị khách hàng', layout: '2' },
+      { src: 'images/EVENT/sk3.jpg', alt: 'Workshop', layout: '3' },
+      { src: 'images/EVENT/sk4.jpg', alt: 'Team building', layout: '4' },
+      { src: 'images/EVENT/sk5.jpg', alt: 'Sự kiện tri ân', layout: '5' },
+      { src: 'images/EVENT/sk6.jpg', alt: 'Concept chương trình', layout: '6' },
+      { src: 'images/EVENT/sk7.jpg', alt: 'Điều phối sự kiện', layout: '7' },
+      { src: 'images/EVENT/sk8.jpg', alt: 'Tổng kết chương trình', layout: '8' },
     ],
   },
   novapath: {
@@ -351,9 +414,9 @@ function renderGallery(images) {
   return images
     .map(
       ({ src, alt, layout }) => `
-        <figure class="project-modal__gallery-item project-modal__gallery-item--${layout}">
+        <button type="button" class="project-modal__gallery-item project-modal__gallery-item--${layout}" data-lightbox-src="${src}" aria-label="Xem ảnh: ${alt}">
           <img src="${src}" alt="${alt}" loading="lazy">
-        </figure>
+        </button>
       `
     )
     .join('');
