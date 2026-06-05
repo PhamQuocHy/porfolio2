@@ -1,50 +1,351 @@
 const PROJECT_DETAILS = {
-  landeros: {
-    title: 'Sản xuất bao bì',
+  milanceramics: {
+    title: 'Phát triển Facebook cho Milan Ceramics',
     subtitle:
-      'Phối hợp phát triển bao bì sản phẩm theo định hướng thương hiệu và trải nghiệm khách hàng.',
-    sidebar: 'Tổ chức sản xuất',
+      'Xây dựng chiến lược nội dung, Facebook Reels và quảng cáo — tăng Fanpage từ ~26.000 lên hơn 34.700 người theo dõi.',
+    sidebar: 'Facebook',
+    sections: [
+      {
+        title: 'Thời điểm tiếp nhận (08/2024)',
+        type: 'text',
+        content:
+          'Khi bắt đầu phụ trách Fanpage Milan Ceramics, hệ thống nội dung chủ yếu tập trung vào giới thiệu sản phẩm đơn lẻ, chưa có định hướng rõ ràng về nhóm nội dung, video ngắn và chiến lược xây dựng thương hiệu dài hạn.',
+      },
+      {
+        title: 'Vai trò',
+        type: 'list',
+        items: [
+          'Lập kế hoạch nội dung theo tháng/quý/năm',
+          'Quản lý và điều phối đội ngũ Content – Design – Video',
+          'Xây dựng hệ thống Content Pillars cho Fanpage',
+          'Triển khai nội dung Facebook Reels',
+          'Chạy quảng cáo',
+          'Theo dõi và tối ưu hiệu quả dựa trên dữ liệu thực tế',
+        ],
+      },
+      {
+        title: 'Giải pháp triển khai',
+        type: 'list',
+        items: [
+          'Tăng tỷ trọng video ngắn (Facebook Reels)',
+          'Kết hợp nội dung sản phẩm, công trình thực tế, kiến thức vật liệu xây dựng và chia sẻ kinh nghiệm lựa chọn gạch',
+          'Chuẩn hóa hình ảnh nhận diện thương hiệu',
+          'Xây dựng nội dung hướng đến khách hàng trước, trong và sau quá trình xây nhà',
+          'Kết hợp nội dung thương hiệu và nội dung hỗ trợ bán hàng',
+        ],
+      },
+      {
+        title: 'Kết quả',
+        type: 'metrics',
+        items: [
+          { label: 'Người theo dõi', value: '26.000 → 34.700+' },
+          { label: 'Tăng followers', value: '+8.700' },
+          { label: 'Lượt xem (30 ngày)', value: '217.800' },
+          { label: 'Người tiếp cận', value: '124.737' },
+          { label: 'Tương tác nội dung', value: '772' },
+          { label: 'Nhấp liên kết', value: '496' },
+          { label: 'Hội thoại khách hàng', value: '99' },
+          { label: 'Theo dõi mới (30 ngày)', value: '54' },
+        ],
+      },
+      {
+        title: 'So với các doanh nghiệp cùng ngành',
+        type: 'list',
+        items: [
+          '34.701 người theo dõi Facebook',
+          '772 lượt tương tác nội dung',
+          '54 lượt theo dõi mới',
+          'Các chỉ số đều cao hơn mức trung bình của nhóm doanh nghiệp cùng ngành do Meta Business Suite thống kê.',
+        ],
+      },
+      {
+        title: 'Kết quả đạt được',
+        type: 'text',
+        content:
+          'Không chỉ tăng trưởng về người theo dõi, Fanpage đã trở thành một kênh truyền thông và hỗ trợ bán hàng hiệu quả, góp phần gia tăng độ phủ thương hiệu, tạo khách hàng tiềm năng và hỗ trợ hoạt động kinh doanh của doanh nghiệp.',
+      },
+    ],
     images: [
-      { src: 'images/project-1.png', alt: 'Thiết kế kệ trưng bày', layout: '1' },
-      { src: 'images/z7174474744548_a5729aee8355d13fdfdeab45a65c38ee.jpg', alt: 'Bao bì lì xì', layout: '2' },
-      { src: 'images/project-3.png', alt: 'Hộp sản phẩm skincare', layout: '3' },
-      { src: 'images/avt2.jpg', alt: 'Trải nghiệm sản phẩm', layout: '4' },
-      { src: 'images/project-4.png', alt: 'Bộ nhận diện thương hiệu', layout: '5' },
-      { src: 'images/project-2.png', alt: 'Packaging supplement', layout: '6' },
-      { src: 'images/F8rOBHbbIkzGRluKefWlxCX9WI.avif', alt: 'Mockup hộp cao cấp', layout: '7' },
-      { src: 'images/lg8tfpW7D7GQUO4F5VtdVe8OjjM.avif', alt: 'Thiết kế enzyme', layout: '8' },
+      { src: 'images/project-1.png', alt: 'Fanpage Milan Ceramics', layout: '1' },
+      { src: 'images/project-2.png', alt: 'Báo cáo hiệu quả', layout: '2' },
+      { src: 'images/project-3.png', alt: 'Nội dung Reels', layout: '3' },
+      { src: 'images/avt2.jpg', alt: 'Công trình thực tế', layout: '4' },
+      { src: 'images/F8rOBHbbIkzGRluKefWlxCX9WI.avif', alt: 'Sản phẩm gạch', layout: '5' },
+      { src: 'images/XJP6N21SKyA8OD0sTiV9H2m0.avif', alt: 'Content pillar', layout: '6' },
+      { src: 'images/lg8tfpW7D7GQUO4F5VtdVe8OjjM.avif', alt: 'Quảng cáo Facebook', layout: '7' },
+      { src: 'images/project-4.png', alt: 'Nhận diện thương hiệu', layout: '8' },
     ],
   },
-  alter: {
-    title: 'Alter Analytics®',
+  'milanceramics-tiktok': {
+    title: 'TikTok cho Milan Ceramics',
     subtitle:
-      'Chiến dịch đa kênh giúp startup SaaS tăng 2.5× lượt đăng ký dùng thử sản phẩm.',
-    sidebar: 'Digital growth',
+      'Xây dựng và vận hành hệ sinh thái TikTok gồm 02 kênh thương hiệu, tạo nhiều video viral với tổng hơn 700.000 lượt xem tự nhiên, góp phần gia tăng nhận diện thương hiệu Milan Ceramics tại khu vực Đồng bằng sông Cửu Long.',
+    sidebar: 'TikTok',
+    sections: [
+      {
+        title: 'TikTok Milan Ceramics (Kênh chính)',
+        type: 'list',
+        items: [
+          'Chỉ số cũ: 5.757 followers',
+          'Chỉ số mới: 6.355 followers',
+          '9.158 likes',
+          'Video nổi bật đạt 449.400+ views',
+        ],
+      },
+      {
+        title: 'TikTok Milan Ngoại Truyện (Kênh phụ)',
+        type: 'list',
+        items: [
+          'Xây dựng từ 0 followers',
+          'Đạt 202 followers',
+          '2.727 likes',
+          'Video nổi bật đạt 265.200+ views',
+        ],
+      },
+      {
+        title: 'Chỉ số tổng hợp',
+        type: 'metrics',
+        items: [
+          { label: 'Số kênh thương hiệu', value: '02 kênh' },
+          { label: 'Tổng lượt xem video', value: '714.600+' },
+          { label: 'Video kênh chính', value: '449.400+' },
+          { label: 'Video kênh phụ', value: '265.200+' },
+        ],
+      },
+      {
+        title: 'Tổng tác động',
+        type: 'list',
+        items: [
+          'Xây dựng hệ sinh thái TikTok gồm 02 kênh thương hiệu',
+          'Tạo ra các video đạt tổng cộng hơn 714.600 lượt xem (449.400 + 265.200)',
+          'Kênh chính: Chuyển đổi bán hàng',
+          'Kênh phụ: Tăng độ yêu thích thương hiệu (Brand Affinity)',
+        ],
+      },
+      {
+        title: 'Vai trò mở rộng',
+        type: 'list',
+        items: [
+          'Xây dựng và vận hành hệ sinh thái TikTok của doanh nghiệp',
+          'Định hướng & quản lý chiến lược nội dung cho hơn 05 kênh TikTok cá nhân của đội ngũ kinh doanh',
+          'Mở rộng điểm chạm khách hàng, tăng độ phủ thương hiệu và hỗ trợ hoạt động bán hàng',
+        ],
+      },
+    ],
     images: [
-      { src: 'images/project-2.png', alt: 'Dashboard analytics', layout: '1' },
-      { src: 'images/project-1.png', alt: 'Landing funnel', layout: '2' },
-      { src: 'images/project-3.png', alt: 'Social ads', layout: '3' },
-      { src: 'images/avt3.jpg', alt: 'Chiến dịch performance', layout: '4' },
-      { src: 'images/XJP6N21SKyA8OD0sTiV9H2m0.avif', alt: 'Báo cáo KPI', layout: '5' },
-      { src: 'images/project-4.png', alt: 'Email nurture', layout: '6' },
-      { src: 'images/F8rOBHbbIkzGRluKefWlxCX9WI.avif', alt: 'A/B testing', layout: '7' },
-      { src: 'images/lg8tfpW7D7GQUO4F5VtdVe8OjjM.avif', alt: 'Retargeting', layout: '8' },
+      { src: 'images/project-2.png', alt: 'TikTok Milan Ceramics', layout: '1' },
+      { src: 'images/project-3.png', alt: 'Video viral', layout: '2' },
+      { src: 'images/avt3.jpg', alt: 'Nội dung kênh chính', layout: '3' },
+      { src: 'images/avt4.jpg', alt: 'Kênh Ngoại Truyện', layout: '4' },
+      { src: 'images/project-4.png', alt: 'Chiến lược nội dung', layout: '5' },
+      { src: 'images/F8rOBHbbIkzGRluKefWlxCX9WI.avif', alt: 'Brand touchpoint', layout: '6' },
+      { src: 'images/XJP6N21SKyA8OD0sTiV9H2m0.avif', alt: 'Đội ngũ kinh doanh', layout: '7' },
+      { src: 'images/lg8tfpW7D7GQUO4F5VtdVe8OjjM.avif', alt: 'Báo cáo hiệu quả', layout: '8' },
     ],
   },
-  aquaflow: {
-    title: 'AquaFlow™',
+  'milanceramics-seo': {
+    title: 'Website & SEO Performance cho Milan Ceramics',
     subtitle:
-      'Định vị lại thương hiệu nước uống, tăng 40% nhận diện trên mạng xã hội trong 3 tháng.',
-    sidebar: 'Brand refresh',
+      'Quản trị website, nghiên cứu từ khóa và triển khai hơn 30 bài viết SEO — đưa nhiều từ khóa ngành gạch ốp lát lên Top Google.',
+    sidebar: 'Website & SEO',
+    sections: [
+      {
+        title: 'Vai trò',
+        type: 'list',
+        items: [
+          'Chịu trách nhiệm quản trị và cập nhật nội dung website Milan Ceramics',
+          'Tự nghiên cứu từ khóa SEO',
+          'Xây dựng cấu trúc nội dung (Content Outline)',
+          'Viết và tối ưu hơn 30+ bài viết SEO',
+          'Quản lý hình ảnh, banner và nội dung website',
+          'Theo dõi thứ hạng từ khóa và tối ưu bài viết định kỳ',
+        ],
+      },
+      {
+        title: '1. Xây dựng hệ thống Content SEO từ đầu',
+        type: 'text',
+        content:
+          'Nghiên cứu từ khóa ngành gạch ốp lát và thiết bị vệ sinh. Triển khai hơn 30 bài viết SEO chuyên sâu, bao phủ đa dạng nhóm từ khóa từ sản phẩm đến kinh nghiệm xây dựng và xu hướng thiết kế.',
+      },
+      {
+        title: 'Nhóm từ khóa bao phủ',
+        type: 'list',
+        items: [
+          'Gạch ốp lát',
+          'Kinh nghiệm xây dựng',
+          'Phối màu gạch',
+          'Gạch Viglacera',
+          'Gạch nhập khẩu',
+          'Thiết bị vệ sinh',
+          'Xu hướng thiết kế nội thất',
+        ],
+      },
+      {
+        title: '2. Đạt nhiều từ khóa Top Google',
+        type: 'text',
+        content:
+          'Cho đến thời điểm hiện tại, website có nhiều nội dung đạt thứ hạng cao trên Google với các từ khóa nổi bật sau:',
+      },
+      {
+        title: 'Top 1 Google',
+        type: 'list',
+        items: ['Top 10 mẫu gạch cho quán cafe'],
+      },
+      {
+        title: 'Top Google',
+        type: 'list',
+        items: [
+          'Cách phối gạch giúp nhà rộng hơn',
+          '10 mẹo phối gạch ốp lát',
+          'Các loại xương gạch',
+          'Gạch ốp lát Cần Thơ',
+        ],
+      },
+      {
+        title: 'Xuất hiện trong Google Image',
+        type: 'list',
+        items: [
+          'Gạch ốp lát',
+          'Gạch Viglacera 100x100',
+          'Các từ khóa sản phẩm liên quan',
+        ],
+      },
+    ],
     images: [
-      { src: 'images/project-3.png', alt: 'Visual identity', layout: '1' },
-      { src: 'images/project-2.png', alt: 'Social content', layout: '2' },
-      { src: 'images/project-1.png', alt: 'OOH mockup', layout: '3' },
-      { src: 'images/avt4.jpg', alt: 'Lifestyle shoot', layout: '4' },
-      { src: 'images/z7174474744548_a5729aee8355d13fdfdeab45a65c38ee.jpg', alt: 'Packaging line', layout: '5' },
-      { src: 'images/project-4.png', alt: 'Campaign key visual', layout: '6' },
-      { src: 'images/F8rOBHbbIkzGRluKefWlxCX9WI.avif', alt: 'Influencer kit', layout: '7' },
-      { src: 'images/lg8tfpW7D7GQUO4F5VtdVe8OjjM.avif', alt: 'Brand guidelines', layout: '8' },
+      { src: 'images/project-3.png', alt: 'Website Milan Ceramics', layout: '1' },
+      { src: 'images/project-1.png', alt: 'Bài viết SEO', layout: '2' },
+      { src: 'images/project-2.png', alt: 'Từ khóa Top Google', layout: '3' },
+      { src: 'images/avt2.jpg', alt: 'Nội dung website', layout: '4' },
+      { src: 'images/F8rOBHbbIkzGRluKefWlxCX9WI.avif', alt: 'Gạch ốp lát', layout: '5' },
+      { src: 'images/XJP6N21SKyA8OD0sTiV9H2m0.avif', alt: 'Google Image', layout: '6' },
+      { src: 'images/lg8tfpW7D7GQUO4F5VtdVe8OjjM.avif', alt: 'Content outline', layout: '7' },
+      { src: 'images/project-4.png', alt: 'Banner website', layout: '8' },
+    ],
+  },
+  'milanceramics-gbp': {
+    title: 'Google Business Profile & Local SEO cho Milan Ceramics',
+    subtitle:
+      'Xây dựng chiến dịch thu thập đánh giá trên Google Business Profile — điểm đánh giá tăng từ 3.9 lên 4.9 sao, thu hút 97 review và hỗ trợ Local SEO khu vực Cần Thơ.',
+    sidebar: 'Local SEO',
+    sections: [
+      {
+        title: 'Vai trò',
+        type: 'list',
+        items: [
+          'Xây dựng và triển khai chiến dịch thu thập đánh giá khách hàng trên Google Business Profile',
+          'Thiết kế chương trình khuyến khích khách hàng đánh giá sau mua hàng',
+          'Theo dõi, phản hồi và quản lý chất lượng đánh giá',
+          'Tối ưu hồ sơ doanh nghiệp trên Google Maps',
+        ],
+      },
+      {
+        title: 'Chiến dịch nổi bật: Đánh giá 5 sao – Nhận quà lưu niệm',
+        type: 'text',
+        content:
+          'Triển khai chương trình khuyến khích khách hàng sau mua hàng để lại đánh giá thực tế trên Google Business Profile.',
+      },
+      {
+        title: 'Hoạt động thực hiện',
+        type: 'list',
+        items: [
+          'Thiết kế standee và QR Code đánh giá',
+          'Hướng dẫn khách hàng đánh giá ngay tại showroom',
+          'Tặng quà lưu niệm cho khách hàng hoàn thành đánh giá',
+          'Theo dõi và phản hồi đánh giá',
+        ],
+      },
+      {
+        title: 'Kết quả đạt được',
+        type: 'metrics',
+        items: [
+          { label: 'Điểm đánh giá Google', value: '3.9 → 4.9 sao' },
+          { label: 'Đánh giá Google', value: '97 review' },
+          { label: 'Uy tín Google Maps', value: 'Tăng mạnh' },
+          { label: 'Local SEO', value: 'Cần Thơ' },
+        ],
+      },
+      {
+        title: 'Tác động kinh doanh',
+        type: 'list',
+        items: [
+          'Khi khách hàng tìm kiếm "Gạch ốp lát Cần Thơ", "Showroom gạch Cần Thơ", "Thiết bị vệ sinh Cần Thơ" — Google ưu tiên hiển thị Milan Ceramics trong nhóm doanh nghiệp nổi bật đầu trang tìm kiếm',
+          'Tăng độ tin cậy trước khi khách hàng liên hệ hoặc đến showroom',
+          'Hỗ trợ trực tiếp cho hoạt động bán hàng offline',
+        ],
+      },
+    ],
+    images: [
+      { src: 'images/project-4.png', alt: 'Google Business Profile', layout: '1' },
+      { src: 'images/project-1.png', alt: 'Standee QR Code đánh giá', layout: '2' },
+      { src: 'images/project-2.png', alt: 'Chiến dịch 5 sao', layout: '3' },
+      { src: 'images/avt2.jpg', alt: 'Showroom Milan Ceramics', layout: '4' },
+      { src: 'images/F8rOBHbbIkzGRluKefWlxCX9WI.avif', alt: 'Google Maps', layout: '5' },
+      { src: 'images/XJP6N21SKyA8OD0sTiV9H2m0.avif', alt: 'Đánh giá khách hàng', layout: '6' },
+      { src: 'images/lg8tfpW7D7GQUO4F5VtdVe8OjjM.avif', alt: 'Local SEO Cần Thơ', layout: '7' },
+      { src: 'images/project-3.png', alt: 'Kết quả review', layout: '8' },
+    ],
+  },
+  'milanceramics-event': {
+    title: 'Event cho Milan Ceramics',
+    subtitle:
+      'Lập kế hoạch, triển khai và điều phối hơn 20 sự kiện nội bộ và đối ngoại — góp phần tăng nhận diện thương hiệu và gắn kết nội bộ.',
+    sidebar: 'Event',
+    sections: [
+      {
+        title: 'Vai trò',
+        type: 'text',
+        content:
+          'Chịu trách nhiệm lập kế hoạch, triển khai và điều phối các hoạt động sự kiện nội bộ và đối ngoại của công ty.',
+      },
+      {
+        title: 'Thành tựu nổi bật',
+        type: 'text',
+        content: 'Tổ chức 20+ sự kiện nội bộ và đối ngoại, bao gồm:',
+      },
+      {
+        title: 'Loại hình sự kiện',
+        type: 'list',
+        items: [
+          'Hội nghị khách hàng',
+          'Sự kiện tri ân khách hàng',
+          'Workshop',
+          'Hoạt động team building',
+        ],
+      },
+      {
+        title: 'Trách nhiệm chính',
+        type: 'list',
+        items: [
+          'Xây dựng concept và chủ đề chương trình',
+          'Lập kế hoạch triển khai tổng thể',
+          'Phân bổ ngân sách và nguồn lực',
+          'Phân công công việc cho team Marketing và các bộ phận liên quan',
+          'Làm việc với nhà cung cấp, đối tác và đơn vị thi công',
+          'Điều phối nhân sự trong quá trình tổ chức',
+          'Kiểm soát tiến độ, chất lượng và xử lý phát sinh tại sự kiện',
+          'Tổng kết và đánh giá hiệu quả sau chương trình',
+        ],
+      },
+      {
+        title: 'Kết quả đạt được',
+        type: 'list',
+        items: [
+          'Tổ chức thành công hơn 20 sự kiện trong nhiều quy mô khác nhau',
+          'Đảm bảo chương trình diễn ra đúng kế hoạch và ngân sách',
+          'Góp phần tăng cường nhận diện thương hiệu và duy trì mối quan hệ với khách hàng, đối tác',
+          'Nâng cao sự gắn kết nội bộ và văn hóa doanh nghiệp',
+        ],
+      },
+    ],
+    images: [
+      { src: 'images/cloud-2.png', alt: 'Sự kiện Milan Ceramics', layout: '1' },
+      { src: 'images/project-1.png', alt: 'Hội nghị khách hàng', layout: '2' },
+      { src: 'images/project-2.png', alt: 'Workshop', layout: '3' },
+      { src: 'images/avt3.jpg', alt: 'Team building', layout: '4' },
+      { src: 'images/F8rOBHbbIkzGRluKefWlxCX9WI.avif', alt: 'Sự kiện tri ân', layout: '5' },
+      { src: 'images/XJP6N21SKyA8OD0sTiV9H2m0.avif', alt: 'Concept chương trình', layout: '6' },
+      { src: 'images/lg8tfpW7D7GQUO4F5VtdVe8OjjM.avif', alt: 'Điều phối sự kiện', layout: '7' },
+      { src: 'images/project-4.png', alt: 'Tổng kết chương trình', layout: '8' },
     ],
   },
   novapath: {
@@ -103,8 +404,9 @@ function getModalElements() {
     title: document.getElementById('projectModalTitle'),
     subtitle: document.getElementById('projectModalSubtitle'),
     sidebar: document.getElementById('projectModalSidebar'),
+    caseStudy: document.getElementById('projectModalCase'),
     gallery: document.getElementById('projectModalGallery'),
-    closeBtn: document.querySelector('.project-modal__close'),
+    closeBtn: document.querySelector('#projectModal .project-modal__close'),
   };
 }
 
@@ -120,6 +422,50 @@ function renderGallery(images) {
     .join('');
 }
 
+function renderCaseStudy(sections) {
+  if (!sections?.length) return '';
+
+  return sections
+    .map((section) => {
+      if (section.type === 'list') {
+        const items = section.items.map((item) => `<li>${item}</li>`).join('');
+        return `
+          <section class="project-modal__case-block">
+            <h3>${section.title}</h3>
+            <ul>${items}</ul>
+          </section>
+        `;
+      }
+
+      if (section.type === 'metrics') {
+        const items = section.items
+          .map(
+            ({ label, value }) => `
+              <div class="project-modal__metric">
+                <span class="project-modal__metric-value">${value}</span>
+                <span class="project-modal__metric-label">${label}</span>
+              </div>
+            `
+          )
+          .join('');
+        return `
+          <section class="project-modal__case-block">
+            <h3>${section.title}</h3>
+            <div class="project-modal__metrics">${items}</div>
+          </section>
+        `;
+      }
+
+      return `
+        <section class="project-modal__case-block">
+          <h3>${section.title}</h3>
+          <p>${section.content}</p>
+        </section>
+      `;
+    })
+    .join('');
+}
+
 function openProjectModal(projectId) {
   const data = PROJECT_DETAILS[projectId];
   const { modal, title, subtitle, sidebar, gallery, closeBtn } = getModalElements();
@@ -131,9 +477,22 @@ function openProjectModal(projectId) {
     trustModal.setAttribute('aria-hidden', 'true');
   }
 
+  const { caseStudy } = getModalElements();
+
   title.textContent = data.title;
   subtitle.textContent = data.subtitle;
   sidebar.textContent = data.sidebar;
+
+  if (data.sections?.length && caseStudy) {
+    caseStudy.innerHTML = renderCaseStudy(data.sections);
+    caseStudy.hidden = false;
+    modal.classList.add('has-case-study');
+  } else if (caseStudy) {
+    caseStudy.innerHTML = '';
+    caseStudy.hidden = true;
+    modal.classList.remove('has-case-study');
+  }
+
   gallery.innerHTML = renderGallery(data.images);
 
   lastFocus = document.activeElement;
